@@ -9,6 +9,15 @@
 			"path" : "cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake"
 		},
 		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDependentOption.cmake"
+		},
+		{
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake"
@@ -148,11 +157,27 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/Users/monli/opt/anaconda3/lib/cmake/GTest/GTestConfigVersion.cmake"
+			"path" : "/opt/homebrew/lib/cmake/fmt/fmt-config-version.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/Users/monli/opt/anaconda3/lib/cmake/GTest/GTestConfig.cmake"
+			"path" : "/opt/homebrew/lib/cmake/fmt/fmt-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/homebrew/lib/cmake/fmt/fmt-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/homebrew/lib/cmake/fmt/fmt-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/gtest/GTestConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/gtest/GTestConfig.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -196,11 +221,15 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/Users/monli/opt/anaconda3/lib/cmake/GTest/GTestTargets.cmake"
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/gtest/GTestTargets.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/Users/monli/opt/anaconda3/lib/cmake/GTest/GTestTargets-noconfig.cmake"
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/gtest/GTestTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/gtest/GTestTargets-release.cmake"
 		},
 		{
 			"isCMake" : true,

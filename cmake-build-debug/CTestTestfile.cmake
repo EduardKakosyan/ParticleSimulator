@@ -4,4 +4,4 @@
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
-include("/Users/monli/CLionProjects/ParticleSimulator/cmake-build-debug/ParticleTest[1]_include.cmake")
+include("/Users/monli/CLionProjects/ParticleSimulator/cmake-build-debug/ParticleTests[1]_include.cmake")

@@ -41,15 +41,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Particle::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Particle-Debug-764f35fd2d3bade1c41a.json",
+					"jsonFile" : "target-Particle-Debug-f67c2e78ae7d43dd964d.json",
 					"name" : "Particle",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "ParticleTest::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ParticleTest-Debug-797f625f5cb8f5889a6b.json",
-					"name" : "ParticleTest",
+					"id" : "ParticleTests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ParticleTests-Debug-c1843d2af34d5603ff85.json",
+					"name" : "ParticleTests",
 					"projectIndex" : 0
 				}
 			]
