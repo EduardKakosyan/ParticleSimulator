@@ -1,14 +1,4 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/monli/CLionProjects/ParticleSimulator -B /Users/monli/CLionProjects/ParticleSimulator/cmake-build-debug
-CMake Error at CMakeLists.txt:8 (find_package):
-  Could not find a package configuration file provided by "fmt" with any of
-  the following names:
-
-    fmtConfig.cmake
-    fmt-config.cmake
-
-  Add the installation prefix of "fmt" to CMAKE_PREFIX_PATH or set "fmt_DIR"
-  to a directory containing one of the above files.  If "fmt" provides a
-  separate development package or SDK, be sure it has been installed.
-
-
--- Configuring incomplete, errors occurred!
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/monli/CLionProjects/ParticleSimulator/cmake-build-debug

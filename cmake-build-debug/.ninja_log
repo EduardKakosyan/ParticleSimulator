@@ -1,3 +1,3 @@
 # ninja log v6
-1	598	1717694969467427976	CMakeFiles/ParticleSimulator.dir/main.cpp.o	89220a7ee90378f8
-600	747	1717694970066089802	ParticleSimulator	2aa25f19cfb4b738
+0	278	1717760697385129199	CMakeFiles/Particle.dir/src/main.cpp.o	53c46370e98e3b5f
+281	317	1717760697665909274	Particle	a4c724dad6961ee2

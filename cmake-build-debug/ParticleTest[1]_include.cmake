@@ -1,0 +1,5 @@
+if(EXISTS "/Users/monli/CLionProjects/ParticleSimulator/cmake-build-debug/ParticleTest[1]_tests.cmake")
+  include("/Users/monli/CLionProjects/ParticleSimulator/cmake-build-debug/ParticleTest[1]_tests.cmake")
+else()
+  add_test(ParticleTest_NOT_BUILT ParticleTest_NOT_BUILT)
+endif()
