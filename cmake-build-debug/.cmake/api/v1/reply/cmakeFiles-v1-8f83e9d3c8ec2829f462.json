@@ -172,12 +172,56 @@
 			"path" : "/opt/homebrew/lib/cmake/fmt/fmt-targets-release.cmake"
 		},
 		{
+			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/gtest/GTestConfigVersion.cmake"
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindPackageMessage.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/gtest/GTestConfig.cmake"
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/glew/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/glew/glew-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/glew/glew-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/glew/glew-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/glew/glew-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/glew/CopyImportedTargetProperties.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/glfw3/glfw3ConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/glfw3/glfw3Config.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -218,6 +262,47 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/glfw3/glfw3Targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/glfw3/glfw3Targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/glfw3/glfw3Targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/glm/glmConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/glm/glmConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/glm/glmConfig-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/glm/glmConfig-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/gtest/GTestConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/share/gtest/GTestConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake"
 		},
 		{
 			"isExternal" : true,

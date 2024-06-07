@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Particle"
+			"path" : "ParticleTests"
 		}
 	],
 	"backtrace" : 2,
@@ -29,7 +29,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 15,
+				"line" : 31,
 				"parent" : 0
 			},
 			{
@@ -41,19 +41,19 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 18,
+				"line" : 33,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 13,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 16,
+				"line" : 32,
 				"parent" : 0
 			}
 		]
@@ -67,13 +67,6 @@
 					"fragment" : "-g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.0 -fcolor-diagnostics"
 				}
 			],
-			"defines" : 
-			[
-				{
-					"backtrace" : 3,
-					"define" : "FMT_HEADER_ONLY=1"
-				}
-			],
 			"includes" : 
 			[
 				{
@@ -83,7 +76,7 @@
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/opt/homebrew/include"
+					"path" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/include"
 				}
 			],
 			"language" : "CXX",
@@ -99,11 +92,12 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3
 			]
 		}
 	],
-	"id" : "Particle::@6890427a1f51a3e7e1df",
+	"id" : "ParticleTests::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -115,12 +109,27 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/debug/lib/libgtest.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/debug/lib/manual-link/libgtest_main.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/debug/lib/libgtest.a",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "Particle",
-	"nameOnDisk" : "Particle",
+	"name" : "ParticleTests",
+	"nameOnDisk" : "ParticleTests",
 	"paths" : 
 	{
 		"build" : ".",
@@ -134,16 +143,18 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				3,
 				4,
-				5
+				5,
+				6,
+				7
 			]
 		}
 	],
@@ -152,7 +163,13 @@
 		{
 			"backtrace" : 5,
 			"compileGroupIndex" : 0,
-			"path" : "src/main.cpp",
+			"path" : "tests/ParticleTests.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "src/Random.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -169,17 +186,22 @@
 		},
 		{
 			"backtrace" : 5,
-			"path" : "include/Particle.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 5,
 			"path" : "include/Emitter.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 5,
+			"path" : "include/Particle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
 			"path" : "include/Vec3.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "include/Random.h",
 			"sourceGroupIndex" : 1
 		}
 	],
