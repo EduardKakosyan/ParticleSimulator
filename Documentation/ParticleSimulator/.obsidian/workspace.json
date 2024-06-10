@@ -6,29 +6,9 @@
       {
         "id": "81dbb48725772868",
         "type": "tabs",
-        "dimension": 40.6480117820324,
         "children": [
           {
             "id": "537d7cdcd414c6c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "740ca8d8f457c6de",
-        "type": "tabs",
-        "dimension": 59.3519882179676,
-        "children": [
-          {
-            "id": "9d7a1bfb6eeec943",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -169,12 +149,16 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "9d7a1bfb6eeec943",
+  "active": "537d7cdcd414c6c3",
   "lastOpenFiles": [
-    "Pasted image 20240610150538.png",
-    "Pasted image 20240610150343.png",
     "README.md",
+    "Linear Algebra.md",
+    "IMAGES/Right_Hand.png",
     "OpenGL.md",
+    "IMAGES/Triangle.png",
+    "IMAGES/Pasted.md",
+    "Images.md",
+    "IMAGES",
     "Welcome.md"
   ]
 }
