@@ -81,6 +81,14 @@ build CMakeFiles/Particle.dir/src/Random.cpp.o: CXX_COMPILER__Particle_unscanned
   OBJECT_DIR = CMakeFiles/Particle.dir
   OBJECT_FILE_DIR = CMakeFiles/Particle.dir/src
 
+build CMakeFiles/Particle.dir/src/common/shader.cpp.o: CXX_COMPILER__Particle_unscanned_Debug /Users/monli/CLionProjects/ParticleSimulator/src/common/shader.cpp || cmake_object_order_depends_target_Particle
+  DEFINES = -DFMT_HEADER_ONLY=1 -DGLEW_STATIC
+  DEP_FILE = CMakeFiles/Particle.dir/src/common/shader.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.0 -fcolor-diagnostics
+  INCLUDES = -I/Users/monli/CLionProjects/ParticleSimulator/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -isystem /Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/include
+  OBJECT_DIR = CMakeFiles/Particle.dir
+  OBJECT_FILE_DIR = CMakeFiles/Particle.dir/src/common
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Particle
@@ -89,7 +97,7 @@ build CMakeFiles/Particle.dir/src/Random.cpp.o: CXX_COMPILER__Particle_unscanned
 #############################################
 # Link the executable Particle
 
-build Particle: CXX_EXECUTABLE_LINKER__Particle_Debug CMakeFiles/Particle.dir/src/main.cpp.o CMakeFiles/Particle.dir/src/Emitter.cpp.o CMakeFiles/Particle.dir/src/Vec3.cpp.o CMakeFiles/Particle.dir/src/Random.cpp.o | /Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/debug/lib/libGLEWd.a /Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/debug/lib/libglfw3.a /Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/debug/lib/libglm.a
+build Particle: CXX_EXECUTABLE_LINKER__Particle_Debug CMakeFiles/Particle.dir/src/main.cpp.o CMakeFiles/Particle.dir/src/Emitter.cpp.o CMakeFiles/Particle.dir/src/Vec3.cpp.o CMakeFiles/Particle.dir/src/Random.cpp.o CMakeFiles/Particle.dir/src/common/shader.cpp.o | /Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/debug/lib/libGLEWd.a /Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/debug/lib/libglfw3.a /Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/debug/lib/libglm.a
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.0
   LINK_LIBRARIES = -framework OpenGL  -framework OpenGL  /Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/debug/lib/libGLEWd.a  /Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/debug/lib/libglfw3.a  /Users/monli/.vcpkg-clion/vcpkg/installed/arm64-osx/debug/lib/libglm.a  -framework OpenGL  -framework Cocoa  -framework IOKit  -framework CoreFoundation
   OBJECT_DIR = CMakeFiles/Particle.dir

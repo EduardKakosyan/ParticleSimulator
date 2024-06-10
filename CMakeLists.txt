@@ -18,7 +18,8 @@ include_directories(include)
 
 add_executable(Particle)
 target_sources(Particle PRIVATE src/main.cpp  src/Emitter.cpp  src/Vec3.cpp src/Random.cpp
-        include/Particle.h include/Emitter.h include/Vec3.h include/Random.h)
+        src/common/shader.cpp
+        include/shader.hpp include/Particle.h include/Emitter.h include/Vec3.h include/Random.h)
 target_link_libraries(Particle PRIVATE  fmt::fmt-header-only ${OPENGL_LIBRARIES} GLEW::GLEW glfw glm::glm)
 
 ################################
