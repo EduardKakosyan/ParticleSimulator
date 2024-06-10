@@ -11,7 +11,7 @@ OpenGL utilizes the right-hand rule to find the coordinates:
 Utilizing this knowledge we can derive a simple $3\times 3$ matrix to draw a triangle.
 (z is 0 since we are only drawing in 2D space).
 
-$$\begin{pmatrix} -1 & -1 & 0 \\ 1 & -1 & 0 \\ 0 & 1 & 0 \end{pmatrix}$$
+$$\begin{pmatrix} -1 & -1 & 0 \\\ 1 & -1 & 0 \\\ 0 & 1 & 0 \\\end{pmatrix}$$
 
 
 ![Triangle in OpenGL](IMAGES/Triangle.png "Triangle")
