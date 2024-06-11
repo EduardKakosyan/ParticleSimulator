@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Linear Algebra Intro/Systems of Linear Equations.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Linear Algebra Intro/Systems of Linear Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Linear Algebra Intro/Systems of Linear Equations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Linear Algebra Intro/Systems of Linear Equations.md"
               }
             }
           }
@@ -143,12 +143,24 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-projects:Open projects": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
   "active": "537d7cdcd414c6c3",
   "lastOpenFiles": [
     "README.md",
+    "Linear Algebra Intro/Systems of Linear Equations.md",
+    "Linear Algebra.md",
+    "Linear Algebra Intro",
+    "OpenGL.md",
+    "IMAGES/Right_Hand.png",
+    "IMAGES/Triangle.png",
+    "IMAGES/Pasted.md",
+    "Images.md",
+    "IMAGES",
     "Welcome.md"
   ]
 }

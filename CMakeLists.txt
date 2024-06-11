@@ -18,7 +18,8 @@ include_directories(include)
 
 add_executable(Particle)
 target_sources(Particle PRIVATE src/main.cpp  src/Emitter.cpp  src/Vec3.cpp src/Random.cpp
-        include/Particle.h include/Emitter.h include/Vec3.h include/Random.h)
+        src/common/shader.cpp
+        include/shader.hpp include/Particle.h include/Emitter.h include/Vec3.h include/Random.h)
 target_link_libraries(Particle PRIVATE  fmt::fmt-header-only ${OPENGL_LIBRARIES} GLEW::GLEW glfw glm::glm)
 
 ################################
@@ -29,6 +30,6 @@ find_package(GTest CONFIG REQUIRED)
 include(GoogleTest)
 enable_testing()
 add_executable(ParticleTests)
-target_sources(ParticleTests PRIVATE tests/ParticleTests.cpp src/Random.cpp  src/Emitter.cpp src/Vec3.cpp include/Emitter.h include/Particle.h include/Vec3.h include/Random.h)
+target_sources(ParticleTests PRIVATE tests/ParticleTests.cpp src/Random.cpp  src/Emitter.cpp src/Vec3.cpp include/Emitter.h include/Particle.h include/Vec3.h include/Random.h include/shader.hpp)
 target_link_libraries(ParticleTests PRIVATE GTest::gtest GTest::gtest_main )
 gtest_discover_tests(ParticleTests)
