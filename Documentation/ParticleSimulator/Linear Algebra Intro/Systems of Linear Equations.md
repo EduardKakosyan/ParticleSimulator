@@ -8,9 +8,18 @@ $$a_{1}x_1+a_{2}x_{2}+...+a_{n}x_{n}=b$$
 > $x_{1},...,x_{n}$ are variables
 
 A **system of linear equations** is a list of equations
-$$\begin{gathered}a_{11} x_1+a_{12} x_2+\ldots+a_{1 n} x_n=b_1 \\ a_{21} x_1+a_{22} x_2+\ldots+a_{2 n} x_n=b_2 \\ \vdots \\ a_{m 1} x_1+a_{m 2} x_2+\ldots+a_{m n} x_n=b_m\end{gathered}$$
+
+$$
+\begin{gathered}
+a_{11} x_1 + a_{12} x_2 + \ldots + a_{1n} x_n = b_1 \\
+a_{21} x_1 + a_{22} x_2 + \ldots + a_{2n} x_n = b_2 \\
+\vdots \\
+a_{m1} x_1 + a_{m2} x_2 + \ldots + a_{mn} x_n = b_m
+\end{gathered}
+$$
+
 A **solution** to a system of linear equations is an assignment of real numbers to the variables that is a solution to all of the equations in the system.
-> **Consistent** $\rightarrow$ solutions >= 1
+> **Consistent** $\rightarrow$ solutions >= 1<br>
 > **Inconsistent** $\rightarrow$ solutions = 0
 
 ## Elementary Operations  (#1.3)
@@ -24,6 +33,7 @@ Two systems are equivalents if they share <u>the</u> same set of solutions.
 
 A **matrix** is a 2-dimensional array of numbers. An **augmented matrix** has two parts separated by a vertical line (coefficients, and constants) $\rightarrow$ variables are the columns, rows are the equations
 The augmented matrix of the system of linear equations
+
 $$
 \begin{gathered}
 a_{11} x_1+\ldots+a_{1 n} x_n=b_1 \\
@@ -36,6 +46,7 @@ a_{m 1} & \cdots & a_{m n} & b_m
 \end{array}\right]}
 \end{gathered}
 $$
+
 The elementary row operations are the following:
 1. Switch two rows. (Notation: $R_{i} \leftrightarrow R_{j}$ to switch rows i and j)
 2. Multiply a row by a non-zero number. (Notation: $R_{i}\leftarrow kR_{j}$ to multiply row i by k).
@@ -48,10 +59,19 @@ An entry of an augmented matrix is called a **leading/pivot** entry if it is the
 2. Each leading entry of a row is in a column to the right of the leading entry of any row above it.
 
 A column containing a pivot entry is also called a **pivot column**.
-$\left[\begin{array}{rrr|r}1 & 0 & 0 & 8 \\ 0 & 1 & 0 & 1 \\ 0 & 0 & 1 & 7\end{array}\right]$ $\leftarrow$ One solution
-$\left[\begin{array}{rrr|r}1 & 0 & 0 & 8 \\ 0 & 1 & 0 & 1 \\ 0 & 0 & 0 & 7\end{array}\right]$ $\leftarrow$ No solutions
-$\left[\begin{array}{rrr|r}1 & 0 & 0 & 8 \\ 0 & 1 & 0 & 1 \\ 0 & 0 & 0 & 0\end{array}\right]$ $\leftarrow$ $\infty$ solutions
+
+$$
+\left[\begin{array}{rrr|r} 1 & 0 & 0 & 8 \\\ 0 & 1 & 0 & 1 \\\ 0 & 0 & 1 & 7 \end{array}\right] \leftarrow \text{One Solution}
+$$
+
+$$
+\left[\begin{array}{rrr|r} 1 & 0 & 0 & 8 \\\ 0 & 1 & 0 & 1 \\\ 0 & 0 & 0 & 7 \end{array}\right] \leftarrow \text{No Solution}
+$$
+
+$$
+\left[\begin{array}{rrr|r} 1 & 0 & 0 & 8 \\\ 0 & 1 & 0 & 1 \\\ 0 & 0 & 0 & 0 \end{array}\right] \leftarrow \infty\text{ Solutions}
+$$
 
 A **rank** of an augmented matrix is how many leading entries there are in echelon form.
-> If Rank = Number of rows, then the system has a unique solution.
+> If Rank = Number of rows, then the system has a unique solution.<br>
 > If Rank < Number of rows, then the system has infinitely many solutions, with n-r parameters.
