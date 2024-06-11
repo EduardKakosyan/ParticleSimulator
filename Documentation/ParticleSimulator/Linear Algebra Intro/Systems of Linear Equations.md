@@ -96,28 +96,26 @@ $$
 
 **Notes:** notice how all leading entry of each row is equal to 1 and all entry before it equal to 0. In addition, every entry above 1 must equal to 0
 
-#### Examples of invalid Reduced Echelon Form
-Example 1
-$$
-\left[\begin{array}{rrr|r} 1 & 2 & 0 & 8 \\\ 0 & 1 & 0 & 1 \\\ 0 & 0 & 1 & 7 \end{array}\right] \leftarrow \text{Entry 2 above 2nd leading entry (pivot point)}
-$$
-Example 2
-$$
-\begin{gathered}
-{\left[\begin{array}{lll}
-1 & 0 & 0 \\
-0 & 2 & 0 \\
-0 & 0 & 1
-\end{array}\right] \rightarrow\{2 \text { as leading on and 2nd Row }\}}
-\end{gathered}
-$$
-Example 3
 
-$\left[\begin{array}{lll}1 & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 1\end{array}\right] \rightarrow\{$ All zeros not on bottom row \}
 
-Example 4
+### Gauss-Jordan Elimination
+---
+#### Gauss-Jordan elimination algorithm
+1. First, use Gaussian elimination (Algorithm 1.19) to reduce the matrix to echelon form.
+2. Moving from right to left, consider each pivot entry. Without changing the row containing the pivot entry, or any rows below it, use row operations to create zeros in the column above the pivot entry. Finally, divide the row by its pivot entry, to make the pivot entry equal to 1.
 
-$\left[\begin{array}{lll}1 & 0 & 0 \\ 0 & 0 & 1 \\ 0 & 1 & 0\end{array}\right] \rightarrow\{$ Leading 1 on 3rd raw is on the left of 2 nd row $\left.\}\right\}$
+**Problem:** Let say you have -2 on top of your leading 1 on the 2nd row. You would perform Gauss-Jordan algorithm from right to left.
+
+**Solution**
+$$
+\left[\begin{array}{ccc|c}
+1 & -2 & 0 & 11 \\
+0 & 1 & 0 & 3
+\end{array}\right] R_1 \leftarrow R_1+2 R_2\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 17 \\
+0 & 1 & 0 & 3
+\end{array}\right]
+$$
 
 
 ---
