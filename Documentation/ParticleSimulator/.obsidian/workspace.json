@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenGL.md",
+                "file": "Linear Algebra Intro/Systems of Linear Equations.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL.md",
+                "file": "Linear Algebra Intro/Systems of Linear Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenGL.md",
+                "file": "Linear Algebra Intro/Systems of Linear Equations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenGL.md"
+                "file": "Linear Algebra Intro/Systems of Linear Equations.md"
               }
             }
           }
@@ -151,12 +151,13 @@
   },
   "active": "537d7cdcd414c6c3",
   "lastOpenFiles": [
-    "Linear Algebra.md",
-    "IMAGES/Triangle.png",
-    "IMAGES/Triangle.png",
-    "OpenGL.md",
     "README.md",
+    "Linear Algebra Intro/Systems of Linear Equations.md",
+    "Linear Algebra.md",
+    "Linear Algebra Intro",
+    "OpenGL.md",
     "IMAGES/Right_Hand.png",
+    "IMAGES/Triangle.png",
     "IMAGES/Pasted.md",
     "Images.md",
     "IMAGES",

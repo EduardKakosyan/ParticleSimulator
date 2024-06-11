@@ -1,21 +1,15 @@
 # README - Particle Simulator
-This project is a learning guide for how to develop a particle simulator (*3D engine*) and optimize it utilizing lots of different algorithms.
-
+This project is a learning guide for how to develop a particle simulator (*3D engine*) and optimize it.
+It includes step-by-step documentation guiding you through stages of development, including mathematical explanations and library guides.
 ### <a href="https://www.youtube.com/watch?v=NorXFOobehY">End Goal </a>
+
+--- 
 # Stage 1
+---
 
 ## Notes
-[OpenGL](OpenGL.md) << this includes the notes taken for understanding the library OpenGL.
-
-## TODO
-- [x] 🛫 2024-06-06 Develop the folder structure. ✅ 2024-06-07
-- [ ] 🛫 2024-06-10 Linear Algebra brush up on Matrix systems
-- [ ] 🛫 2024-06-06 Develop the base particle simulator following the lab found in Links[1]
-	- [x] 🛫 2024-06-06 Folder Structure ✅ 2024-06-06
-	- [x] Integrate Gtest into project ✅ 2024-06-07
-	- [x] Basic main.cpp and test.cpp ✅ 2024-06-07
-	- [x] Create a simple OpenGL Window using OpenGL 3 ✅ 2024-06-07
-	- [ ] 🛫 2024-06-07 Render a triangle with OpenGL in C++
+[OpenGL](OpenGL.md) << this includes the notes taken for understanding the basics of the library OpenGL.
+[Linear Algebra Intro](<Linear Algebra Intro/Systems of Linear Equations>) << this is the folder with Linear Algebra requirements.
 
 ## Links
 - <a href="https://nccastaff.bournemouth.ac.uk/jmacey/msc/ase/labs/lab5/lab5/">Guide for developing Basic Particle Simulator </a>
