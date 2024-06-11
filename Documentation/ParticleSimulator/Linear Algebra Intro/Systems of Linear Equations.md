@@ -75,3 +75,31 @@ $$
 A **rank** of an augmented matrix is how many leading entries there are in echelon form.
 > If Rank = Number of rows, then the system has a unique solution.<br>
 > If Rank < Number of rows, then the system has infinitely many solutions, with n-r parameters.
+
+## Gauss-Jordan Elimination (#1.5)
+---
+
+### Reduced Echelon Form Definition
+1. Matrix in echelon form 
+2. Each leading entry = 1
+3. All entries above a leading entry = 0
+
+#### Examples of Reduced Echelon Form
+
+$$
+\left[\begin{array}{rrr|r} 1 & 0 & 0 & 8 \\\ 0 & 1 & 0 & 1 \\\ 0 & 0 & 1 & 7 \end{array}\right] \leftarrow \text{Reduced Echelon form}
+$$
+
+$$
+\left[\begin{array}{rrrrr|r} 1 & 2 & 0 & 5 & 0 & 3 \\\ 0 & 0 & 1 & 2 & 0 & 0 \\\ 0 & 0 & 0 & 0 & 1 &1 \end{array}\right] \leftarrow \text{Reduced Echelon Form}
+$$
+
+**Notes:** notice how all leading entry of each row is equal to 1 and all entry before it equal to 0. In addition, every entry above 1 must equal to 0
+
+#### Examples of invalid Reduced Echelon Form
+
+$$
+\left[\begin{array}{rrr|r} 1 & 2 & 0 & 8 \\\ 0 & 1 & 0 & 1 \\\ 0 & 0 & 1 & 7 \end{array}\right] \leftarrow \text{Entry 2 above 2nd leading entry (pivot point)}
+$$
+
+![[Pasted image 20240610224042.png]]
