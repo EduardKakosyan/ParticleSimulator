@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 281.5,
+    "collapsed": true
   },
   "right": {
     "id": "dd7834e527617f05",
@@ -149,15 +150,15 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "9417a808e7266e33",
+  "active": "537d7cdcd414c6c3",
   "lastOpenFiles": [
     "IMAGES/Pasted image 20240610224042.png",
-    "Drafts-Ideas/Ideas on OpenGL Sphere.md",
-    "OpenGL.md",
-    "Drafts-Ideas",
-    "Linear Algebra Intro/Systems of Linear Equations.md",
     "Guide to Dynamic Simulation.pdf",
+    "Drafts-Ideas/Ideas on OpenGL Sphere.md",
+    "Drafts-Ideas",
+    "OpenGL.md",
     "README.md",
+    "Linear Algebra Intro/Systems of Linear Equations.md",
     "Linear Algebra.md",
     "Linear Algebra Intro",
     "IMAGES/Right_Hand.png",

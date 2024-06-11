@@ -102,4 +102,24 @@ $$
 \left[\begin{array}{rrr|r} 1 & 2 & 0 & 8 \\\ 0 & 1 & 0 & 1 \\\ 0 & 0 & 1 & 7 \end{array}\right] \leftarrow \text{Entry 2 above 2nd leading entry (pivot point)}
 $$
 
-![[Pasted image 20240610224042.png]]
+
+---
+## Homogenous Systems (#1.6)
+---
+A **homogenous** system has all constants equal to 0.
+$$
+\left[\begin{array}{rrrrr|r} 1 & 0 & 0 & 0 & 0 & 0 \\\ 0 & 0 & 1 & 0 & 0 & 0 \\\ 0 & 0 & 0 & 0 & 1 &0 \end{array}\right] \leftarrow \text{Homogenous System}
+$$
+A homogenous system always has a `trivial solution` where 
+$$
+x_{1} = 1, x_{2}=0,...,x_{n}=0
+$$
+Any solution that doesn't equate all variables to 0, is `non-trivial`.
+Consider a homogenous system of m equations in n variables, and assume that the coefficient matrix has rank r.
+1. if r=n, then the system only has a trivial solution.
+2. if r<n, then the system has infinitely many solutions.
+
+> Complete book questions for practice.
+
+### Homogenous vs Non-homogeneous
+Let A be a system of equations, and let B be the associated homogeneous system. Then the general solution of A = a particular solution of A plus the general solution of B.
