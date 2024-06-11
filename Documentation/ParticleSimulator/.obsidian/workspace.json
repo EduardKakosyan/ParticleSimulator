@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5,
-    "collapsed": true
+    "width": 281.5
   },
   "right": {
     "id": "dd7834e527617f05",
@@ -150,10 +149,11 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "537d7cdcd414c6c3",
+  "active": "9417a808e7266e33",
   "lastOpenFiles": [
+    "Books",
     "IMAGES/Pasted image 20240610224042.png",
-    "Guide to Dynamic Simulation.pdf",
+    "Books/Guide to Dynamic Simulation.pdf",
     "Drafts-Ideas/Ideas on OpenGL Sphere.md",
     "Drafts-Ideas",
     "OpenGL.md",
