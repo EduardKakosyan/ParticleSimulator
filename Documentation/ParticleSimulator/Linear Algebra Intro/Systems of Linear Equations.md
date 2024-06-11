@@ -107,13 +107,17 @@ $$
 ## Homogenous Systems (#1.6)
 ---
 A **homogenous** system has all constants equal to 0.
+
 $$
 \left[\begin{array}{rrrrr|r} 1 & 0 & 0 & 0 & 0 & 0 \\\ 0 & 0 & 1 & 0 & 0 & 0 \\\ 0 & 0 & 0 & 0 & 1 &0 \end{array}\right] \leftarrow \text{Homogenous System}
 $$
+
 A homogenous system always has a `trivial solution` where 
+
 $$
 x_{1} = 1, x_{2}=0,...,x_{n}=0
 $$
+
 Any solution that doesn't equate all variables to 0, is `non-trivial`.
 Consider a homogenous system of m equations in n variables, and assume that the coefficient matrix has rank r.
 1. if r=n, then the system only has a trivial solution.
