@@ -96,24 +96,43 @@ $$
 
 **Notes:** notice how all leading entry of each row is equal to 1 and all entry before it equal to 0. In addition, every entry above 1 must equal to 0
 
-#### Examples of invalid Reduced Echelon Form
 
+
+### Gauss-Jordan Elimination
+---
+#### Gauss-Jordan elimination algorithm
+1. First, use Gaussian elimination (Algorithm 1.19) to reduce the matrix to echelon form.
+2. Moving from right to left, consider each pivot entry. Without changing the row containing the pivot entry, or any rows below it, use row operations to create zeros in the column above the pivot entry. Finally, divide the row by its pivot entry, to make the pivot entry equal to 1.
+
+**Problem:** Let say you have -2 on top of your leading 1 on the 2nd row. You would perform Gauss-Jordan algorithm from right to left.
+
+**Solution**
 $$
-\left[\begin{array}{rrr|r} 1 & 2 & 0 & 8 \\\ 0 & 1 & 0 & 1 \\\ 0 & 0 & 1 & 7 \end{array}\right] \leftarrow \text{Entry 2 above 2nd leading entry (pivot point)}
+\left[\begin{array}{ccc|c}
+1 & -2 & 0 & 11 \\
+0 & 1 & 0 & 3
+\end{array}\right] R_1 \leftarrow R_1+2 R_2\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 17 \\
+0 & 1 & 0 & 3
+\end{array}\right]
 $$
 
 
 ---
 ## Homogenous Systems (#1.6)
-
+---
 A **homogenous** system has all constants equal to 0.
+
 $$
 \left[\begin{array}{rrrrr|r} 1 & 0 & 0 & 0 & 0 & 0 \\\ 0 & 0 & 1 & 0 & 0 & 0 \\\ 0 & 0 & 0 & 0 & 1 &0 \end{array}\right] \leftarrow \text{Homogenous System}
 $$
+
 A homogenous system always has a `trivial solution` where 
+
 $$
 x_{1} = 1, x_{2}=0,...,x_{n}=0
 $$
+
 Any solution that doesn't equate all variables to 0, is `non-trivial`.
 Consider a homogenous system of m equations in n variables, and assume that the coefficient matrix has rank r.
 1. if r=n, then the system only has a trivial solution.
@@ -123,23 +142,3 @@ Consider a homogenous system of m equations in n variables, and assume that the 
 
 ### Homogenous vs Non-homogeneous
 Let A be a system of equations, and let B be the associated homogeneous system. Then the general solution of A = a particular solution of A plus the general solution of B.
-
----
-# Uniqueness of the reduced echelon form (#1.7)
-> Proposition 1.43
-if $x_i$ is a pivot variable of a homogeneous system of linear equations, then any solution of the system with $x_{j} = 0$ for all those free variables $x_{j}$ with j > I must also have $x_{i} = 0$
-
-> Lemma 1.44
-If A and B matrices are both homogeneous systems of m and n variables, and they are both reduced to echelon form, then if they are different then they don't have the same solution.
-
-> Complete book questions for practice
-
-
----
-# Fields (#1.8)
-A **field** is a set K, together with two operations called addition and multiplication, and two distinct elements 0 and 1, s.t. operations satisfy:
-
-![Field Properties](Images/Field_properties.png)
-
->The set of $\mathbb{N}$ , $\mathbb{Z}$ does not satisfy A4, M4
-
