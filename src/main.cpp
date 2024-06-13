@@ -61,9 +61,9 @@ int main(){
 
 
   static const GLfloat g_vertex_buffer_data[] = {
-      -1.0f, -1.0f, 0.0f,
-      1.0f, -1.0f, 0.0f,
-      0.0f,  1.0f, 0.0f,
+      -0.0f, 1.0f, 0.0f,
+      0.0f, -1.0f, 0.0f,
+      0.0f,  1.0f, -1.0f,
   };
 
   GLuint vertexbuffer;
@@ -72,14 +72,11 @@ int main(){
   glBufferData(GL_ARRAY_BUFFER, sizeof(g_vertex_buffer_data), g_vertex_buffer_data, GL_STATIC_DRAW);
 
   do{
-
-    // Clear the screen
     glClear( GL_COLOR_BUFFER_BIT );
 
     // Use our shader
     glUseProgram(programID);
 
-    // 1rst attribute buffer : vertices
     glEnableVertexAttribArray(0);
     glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
     glVertexAttribPointer(
@@ -92,7 +89,7 @@ int main(){
     );
 
     // Draw the triangle !
-    glDrawArrays(GL_TRIANGLES, 0, 3); // 3 indices starting at 0 -> 1 triangle
+    glDrawArrays(GL_TRIANGLES, 0, 3);
 
     glDisableVertexAttribArray(0);
 

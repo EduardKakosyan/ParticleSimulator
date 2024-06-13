@@ -123,3 +123,23 @@ Consider a homogenous system of m equations in n variables, and assume that the 
 
 ### Homogenous vs Non-homogeneous
 Let A be a system of equations, and let B be the associated homogeneous system. Then the general solution of A = a particular solution of A plus the general solution of B.
+
+---
+# Uniqueness of the reduced echelon form (#1.7)
+> Proposition 1.43
+if $x_i$ is a pivot variable of a homogeneous system of linear equations, then any solution of the system with $x_{j} = 0$ for all those free variables $x_{j}$ with j > I must also have $x_{i} = 0$
+
+> Lemma 1.44
+If A and B matrices are both homogeneous systems of m and n variables, and they are both reduced to echelon form, then if they are different then they don't have the same solution.
+
+> Complete book questions for practice
+
+
+---
+# Fields (#1.8)
+A **field** is a set K, together with two operations called addition and multiplication, and two distinct elements 0 and 1, s.t. operations satisfy:
+
+![Field Properties](Images/Field_properties.png)
+
+>The set of $\mathbb{N}$ , $\mathbb{Z}$ does not satisfy A4, M4
+
