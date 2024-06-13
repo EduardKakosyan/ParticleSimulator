@@ -105,7 +105,7 @@ $$
 
 ---
 ## Homogenous Systems (#1.6)
----
+
 A **homogenous** system has all constants equal to 0.
 $$
 \left[\begin{array}{rrrrr|r} 1 & 0 & 0 & 0 & 0 & 0 \\\ 0 & 0 & 1 & 0 & 0 & 0 \\\ 0 & 0 & 0 & 0 & 1 &0 \end{array}\right] \leftarrow \text{Homogenous System}
