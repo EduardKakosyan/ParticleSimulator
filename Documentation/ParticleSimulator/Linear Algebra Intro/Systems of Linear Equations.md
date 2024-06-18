@@ -142,3 +142,4 @@ Consider a homogenous system of m equations in n variables, and assume that the 
 
 ### Homogenous vs Non-homogeneous
 Let A be a system of equations, and let B be the associated homogeneous system. Then the general solution of A = a particular solution of A plus the general solution of B.
+

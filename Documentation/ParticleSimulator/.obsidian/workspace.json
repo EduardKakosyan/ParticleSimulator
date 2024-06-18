@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "81dbb48725772868",
+        "id": "3d85aa32ef4b347d",
         "type": "tabs",
         "children": [
           {
-            "id": "537d7cdcd414c6c3",
+            "id": "19b2a1ec0044051c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Algebra Intro/Systems of Linear Equations.md",
+                "file": "Linear Algebra Intro/Vectors.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 281.5,
+    "collapsed": true
   },
   "right": {
     "id": "dd7834e527617f05",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Algebra Intro/Systems of Linear Equations.md",
+                "file": "Linear Algebra Intro/Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear Algebra Intro/Systems of Linear Equations.md",
+                "file": "Linear Algebra Intro/Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Algebra Intro/Systems of Linear Equations.md"
+                "file": "Linear Algebra Intro/Vectors.md"
               }
             }
           }
@@ -149,10 +150,11 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "537d7cdcd414c6c3",
+  "active": "19b2a1ec0044051c",
   "lastOpenFiles": [
-    "Linear Algebra Intro/Examples.md",
     "Linear Algebra Intro/Systems of Linear Equations.md",
+    "Linear Algebra Intro/Vectors.md",
+    "Linear Algebra Intro/Examples.md",
     "README.md",
     "Books",
     "IMAGES/Pasted image 20240610224042.png",
