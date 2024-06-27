@@ -7,6 +7,7 @@ Two vectors are equal iff they have both the same direction and distance.
 $$ 
 \mathbf{v}=\left[\begin{array}{l}4 \\ 3\end{array}\right] \to [4, 3]^{T}
 $$
+
 A vector with all components equaling 0 is called the zero vector and is written as <u>0</u>.
 
 > Definition 
@@ -15,7 +16,7 @@ We write $\mathbb{R}^{n}$ for the **n-dimensional Euclidean space**.
 
 Vectors are often denoted by lower-case letters such as v, w, a, b
 
-Vectors can be derived from points, for example, a vector from point Q to P can be denoted as $\vec{QP}$.
+Vectors can be derived from points, for example, a vector from point Q to P can be denoted as $\vec{QP}$ .
 
 > Definition: The position vector of a point.
 > Let P be a point in n-dimensional space. The position vector of P is the vector $p=\vec{0P}$ whose tail is the origin and whose tip is at P. Where the coordinates of a point are the same as the components of its position vector. Thus sometimes, referred to as a **coordinate vector**.
@@ -23,6 +24,7 @@ Vectors can be derived from points, for example, a vector from point Q to P can 
 # Addition and Subtraction #2.2
 
 For vectors $\mathbf{u}=\left[\begin{array}{c}u_1 \\ \vdots \\ u_n\end{array}\right], \mathbf{v}=\left[\begin{array}{c}v_1 \\ \vdots \\ v_n\end{array}\right] \in \mathbb{R}^n$ , the sum $\mathbf{u}+\mathbf{v} \in \mathbb{R}^n$ is defined by
+
 $$
 \mathbf{u}+\mathbf{v}=\left[\begin{array}{c}
 u_1 \\
@@ -38,6 +40,7 @@ u_1+v_1 \\
 u_n+v_n
 \end{array}\right]
 $$
+
 The same applies to subtraction, since a negative vector **u**, just has its tail and tip swapped. 
 
 > Properties of vector addition
