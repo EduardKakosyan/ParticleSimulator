@@ -84,6 +84,15 @@
   },
   "displayErrorInEditor": false,
   "LLMProviderProfiles": {},
-  "LLMProviderOptions": {},
+  "LLMProviderOptions": {
+    "whisper": {
+      "base_path": "https://api.openai.com/v1",
+      "model": "whisper-1"
+    },
+    "OpenAI Chat (Langchain)": {
+      "basePath": "https://api.openai.com/v1",
+      "model": "gpt-3.5-turbo"
+    }
+  },
   "LLMProviderOptionsKeysHashed": {}
 }
