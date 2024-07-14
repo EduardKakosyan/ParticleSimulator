@@ -9,3 +9,4 @@ else:
 
 This is important for translation (moving a point in a certain direction).
 
+![Matrix Multiplication](IMAGES/Vector_matrix_mult.png)

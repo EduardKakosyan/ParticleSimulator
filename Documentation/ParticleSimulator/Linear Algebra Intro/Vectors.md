@@ -161,3 +161,32 @@ $$
 
 # The cross product #2.7
 It can only be defined in $\mathbb{R}^{3}$ utilizing the right-hand rule. 
+The geometric definition of the cross product states, that:
+1. Its length is $\|u\times v\| = \|u\|\|v\|sin\theta$ where theta is the included angle.
+2. It is orthogonal to both u and v.
+3. The vectors u, v and $u \times v$, in that order, form a right-handed system.
+
+The algebraic definition of the cross product:
+1. $u\times v=-(v\times u)$
+2. $u\times u = 0$
+3. $(ku)\times v = k(u\times v)=u\times(kv)$
+4. $u\times (v+w)=u\times v+u\times w$
+5. $(v+w)\times u = v\times u +w\times u$
+
+The cross product can be computed as follows:
+
+$$
+\left[\begin{array}{l}
+u_1 \\
+u_2 \\
+u_3
+\end{array}\right] \times\left[\begin{array}{l}
+v_1 \\
+v_2 \\
+v_3
+\end{array}\right]=\left[\begin{array}{l}
+u_2 v_3-u_3 v_2 \\
+u_3 v_1-u_1 v_3 \\
+u_1 v_2-u_2 v_1
+\end{array}\right] .
+$$

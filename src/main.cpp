@@ -1,22 +1,20 @@
 /*Standard Library*/
-
 #include <iostream>
 #include <cstdlib>
 
- /*Third Party Libraries*/
+/*Third Party Libraries*/
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
-GLFWwindow* window;
+GLFWwindow *window;
 #include <glm/glm.hpp>
 #include <shader.hpp>
+
 using namespace glm;
 
-
-int main(){
+int main() {
   // Initialize GLFW
-  if( !glfwInit() )
-  {
-    fprintf( stderr, "Failed to initialize GLFW\n" );
+  if (!glfwInit()) {
+    fprintf(stderr, "Failed to initialize GLFW\n");
     getchar();
     return -1;
   }
@@ -28,9 +26,10 @@ int main(){
   glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
   // Open a window and create its OpenGL context
-  window = glfwCreateWindow( 1024, 768, "Tutorial 02 - Red triangle", nullptr, nullptr);
-  if( window == nullptr ){
-    fprintf( stderr, "Failed to open GLFW window. If you have an Intel GPU, they are not 3.3 compatible. Try the 2.1 version of the tutorials.\n" );
+  window = glfwCreateWindow(1024, 768, "Tutorial 02 - Red triangle", nullptr, nullptr);
+  if (window == nullptr) {
+    fprintf(stderr,
+            "Failed to open GLFW window. If you have an Intel GPU, they are not 3.3 compatible. Try the 2.1 version of the tutorials.\n");
     getchar();
     glfwTerminate();
     return -1;
@@ -57,12 +56,13 @@ int main(){
   glBindVertexArray(VertexArrayID);
 
   // Create and compile our GLSL program from the shaders
-  GLuint programID = LoadShaders( "../src/SimpleVertexShader.vertexshader", "../src/SimpleFragmentShader.fragmentshader" );
-
+  GLuint
+      programID = LoadShaders("../src/SimpleVertexShader.vertexshader", "../src/SimpleFragmentShader.fragmentshader");
 
   static const GLfloat g_vertex_buffer_data[] = {
-      -0.0f, 1.0f, 0.0f,
-      0.0f,  1.0f, -1.0f,
+      0.0f, 1.0f, 0.0f,
+      -1.0f, -1.0f, 0.0f,
+      1.0f, -1.0f, 0.0f,
   };
 
   GLuint vertexbuffer;
@@ -70,8 +70,8 @@ int main(){
   glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
   glBufferData(GL_ARRAY_BUFFER, sizeof(g_vertex_buffer_data), g_vertex_buffer_data, GL_STATIC_DRAW);
 
-  do{
-    glClear( GL_COLOR_BUFFER_BIT );
+  do {
+    glClear(GL_COLOR_BUFFER_BIT);
 
     // Use our shader
     glUseProgram(programID);
@@ -82,9 +82,9 @@ int main(){
         0,                  // attribute 0. No particular reason for 0, but must match the layout in the shader.
         3,                  // size
         GL_FLOAT,           // type
-        GL_FALSE,           // normalized?
+        GL_FALSE,       // normalized?
         0,                  // stride
-        (void*)0            // array buffer offset
+        (void *) nullptr    // array buffer offset
     );
 
     // Draw the triangle !
@@ -97,8 +97,8 @@ int main(){
     glfwPollEvents();
 
   } // Check if the ESC key was pressed or the window was closed
-  while( glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS &&
-      glfwWindowShouldClose(window) == 0 );
+  while (glfwGetKey(window, GLFW_KEY_ESCAPE) != GLFW_PRESS &&
+      glfwWindowShouldClose(window) == 0);
 
   // Cleanup VBO
   glDeleteBuffers(1, &vertexbuffer);
