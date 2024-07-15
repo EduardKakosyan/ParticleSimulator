@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Algebra Intro/Vectors.md",
+                "file": "Linear Algebra Intro/Lines and planes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a2ebd94a70e8acf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linear Algebra Intro/Matrices.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Algebra Intro/Vectors.md",
+                "file": "Linear Algebra Intro/Matrices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear Algebra Intro/Vectors.md",
+                "file": "Linear Algebra Intro/Matrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Algebra Intro/Vectors.md"
+                "file": "Linear Algebra Intro/Matrices.md"
               }
             }
           }
@@ -149,11 +162,13 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "60e0ec7d68c474c7",
+  "active": "4a2ebd94a70e8acf",
   "lastOpenFiles": [
+    "Linear Algebra Intro/Lines and planes.md",
+    "Linear Algebra Intro/Matrices.md",
+    "Linear Algebra Intro/Vectors.md",
     "OpenGL.md",
     "Books/Guide to Dynamic Simulation.pdf",
-    "Linear Algebra Intro/Vectors.md",
     "IMAGES/Right_Hand.png",
     "Linear Algebra Intro/Systems of Linear Equations.md",
     "Linear Algebra Intro/Transformation Matrices.md",
